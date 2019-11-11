@@ -93,7 +93,7 @@ Por lo que el resultado del codigo anterior seria:
               <a href="{{ pagina.url }}">{{ pagina.title }}</a>
             </li>
           {% endfor %}
-        </ul>
+</ul>
 
 ```
 
