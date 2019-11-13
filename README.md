@@ -26,7 +26,7 @@ Para familiarizarnos con Jekyl vamos a hacer dos tareas: Añadiremos dos pagina 
 
 Se le ha añadido dos páginas adicionales a este proyecto con Jekyllllamadas *Contact* y *Products* de la siguiente forma:
 
-Se han creado dos ficheros **MarkDownd** con cada nombre y se ha modificado dentro del fichero el FronMatter y se ha puersto un texto en negrita para corroborar que se crea esa pagina al pinchar en ella.
+Se han creado dos ficheros **MarkDown** con cada nombre y se ha modificado dentro del fichero el FronMatter y se ha puersto un texto en negrita para corroborar que se crea esa pagina al pinchar en ella.
 
 *About se refleja pero about ya esta creado*
 
