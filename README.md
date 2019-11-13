@@ -8,11 +8,50 @@ El objetivo de esta práctica es conocer como es una estrutura con Jekyll y real
 2. [Ejercicios realizados](#id2)
 
 ## 1. Analizaremos el proyecto básico <a name="id1"></a>
-Poner estructura de ficheros de Jekyll y definir mas o menos como es la estructura que se usa con Jekyll
-# Añadir dos paginas adicionales al proyecto
 
-# Añadir un post al proyecto
+La estructura que viene predefinida en nuestro ejemplo la podemos ver en la siguiente imagen:
+
+<img src="img/struct.png" alt="Estructura Jekyll">
+
+Podemos destacar de esta estructura cosas nuevas como:
+
+*- Los includes* --> Codigo html que se va a poder incluir
+*- Los layouts* --> Plantillas en donde vamos a incluir los ficheros
+*- Los posts* --> Donde crearemos y se almacenarán nuestros posts
+*- _site* --> Tendremos todo el contenido de nuestra página 
+
+Para familiarizarnos con Jekyl vamos a hacer dos tareas: Añadiremos dos pagina y un post adicionales al proyecto.
+
+# Añadiendo dos paginas adicionales al proyecto
+
+Se le ha añadido dos páginas adicionales a este proyecto con Jekyllllamadas *Contact* y *Products* de la siguiente forma:
+
+Se han creado dos ficheros **MarkDownd** con cada nombre y se ha modificado dentro del fichero el FronMatter y se ha puersto un texto en negrita para corroborar que se crea esa pagina al pinchar en ella.
+
+*About se refleja pero about ya esta creado*
+
+- Estructura con los ficheros markdown creados en el proyecto
+
+<img src="img/Ficheros_md.png" alt="Estructura con los ficheros markdown nuevos">
+
+- Contenido del fichero, en este caso de **productos**
+
+<img src="img/Contenido_md.png" alt="Contenido de un fichero mark down de la pagina de productos">
+
+- Elementos que se crean cuando ejecutas el server
+
+<img src="img/Estructura_automatica.png" alt="Estructura que se crea automaticamente">
+
+- Como quedaría en el *index.html*
+
+<img src="img/index.png" alt="Muestra como se modifica el index.html automaticamente">
+
+
+# Añadien un post al proyecto
+
 Esta parte ya estaría hecha guardado en /sites/index.html
+**Porque no se me carga la estructura de article como en el otro post**
+        
 Añadir si esta ok una imagen con el codigo y el servidor corriendo
 
 
@@ -32,6 +71,8 @@ Añadir si esta ok una imagen con el codigo y el servidor corriendo
 
 *SOLUCION:*
 
+**PREGUNTAR MAÑANA JUEVES**
+
 # Qué código html tendría como salida
 
 ```
@@ -49,6 +90,9 @@ Añadir si esta ok una imagen con el codigo y el servidor corriendo
 ```
 
 *SOLUCION:*
+
+Tendríamos en el head un titulo de la pagina con el nombre que se haya establecido en la variable title del layout con nombre **page** mas *"-Ejemplo Jekyll"*. 
+En el cuerpo del html se incluye un fichero *nav.html* y posteriormente el contenido del layout por defecto.
 
 # Especifica los filtros, variales Jekyll, tags, y qué se consigue con el siguiente código
 
